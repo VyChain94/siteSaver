@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 400px;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1.25px solid blue;
+    border-radius:20px;
+    margin-bottom: 4px;
+}
+
+button:hover{
+    background: green;
+    border: 2px solid green;
+}
+
+button {
+    background: blue;
+    color: white;
+    padding: 8px 20px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin:5px;
+}
+
+#del-btn {
+    position: relative;
+    background: white;
+    color: red;
+    border: 2px solid red;
+  }
+  
+  #del-btn .tiptext {
+    visibility: hidden;
+    width: 120px;
+    background:radial-gradient(maroon, red, orange 80%);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  #del-btn .tiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  #del-btn:hover .tiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+ul {
+    margin-top: 22px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 10px;
+   
+}
+
+a {
+    color:blue;
+    margin-top: 5px;
+}
+
+a:hover{
+    color:green;
+}
+
+
