@@ -2,9 +2,6 @@
 
 ## This Extension
 
-At theGarden we are interested in everything software development-related: from prototyping to implementation and maintenance. Our goal is to use software for the cultivation and optimization of useful, valuable, and enjoyable products. It is our privilege to offer a chance to be seen on the web to small businesses and individuals alike. Whether that be creating a website for you from the ground up, or providing a place for interested parties to find and learn about what you offer is what we offer. Take a deep dive into our teams portfolio 🚀
-
-- [Our portfolio](https://gardenofivy.com/)
-
+If your anything like me, you do alot of research on the internet. Very often we'll have at least 3 million tabs open at once.. I created this site saver chrome extension so that we can save our sites in an extension and not have to have a bunch of tabs open and waiting for us to go use them again. even when you shut down your computer your sites will be saved until you delete from them from the extension yourself.. ENJOY! 🚀
 
 One love!
